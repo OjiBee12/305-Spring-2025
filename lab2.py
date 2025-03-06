@@ -5,8 +5,9 @@ average= (Subject1+Subject2+Subject3)/3
 
 if (average>80):
     print('Grade A')
-if (average>70):
-    print('Grade B')
-if (average<69):
-    print('Grade F')
-
+else:
+    if (average>70):
+        print('Grade B')
+    else:
+        if (average<69):
+            print('Grade F')
